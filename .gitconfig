@@ -1,0 +1,10 @@
+[user]
+	email = everfree.main@gmail.com
+	name = Yuya TAMANO
+[core]
+	editor = nvim
+	pager = LESSCHARSET=utf-8 less
+        quotepath = false
+
+[alias]
+        pm = push origin main
