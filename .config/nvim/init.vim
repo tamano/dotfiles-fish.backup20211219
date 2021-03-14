@@ -17,6 +17,11 @@ call dein#add('/home/tamano/.cache/dein/repos/github.com/Shougo/dein.vim')
 call dein#add('Shougo/unite.vim')
 call dein#add('Shougo/vimfiler')
 
+call dein#add('itchyny/lightline.vim')
+call dein#add('itchyny/vim-gitbranch')
+call dein#add('Yggdroot/indentLine')
+call dein#add('bronson/vim-trailing-whitespace')
+
 call map(dein#check_clean(), "delete(v:val, 'rf')")
 
 " Required:
